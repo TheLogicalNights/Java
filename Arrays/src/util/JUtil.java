@@ -2,7 +2,7 @@ package util;
 import java.util.Scanner;
 public class JUtil {
     private static final Scanner scanner = new Scanner(System.in);
-    protected static int getIntegerInput() {
+    public static int getIntegerInput() {
         return scanner.nextInt();
     }
 
