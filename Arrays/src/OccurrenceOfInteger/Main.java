@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         OccurrenceOfInteger occurrence = new OccurrenceOfInteger();
-        int[] numberArray = JUtil.getIntegerArray();
+        int[] numberArray = JUtil.getInteger1DArray();
         System.out.println("Enter a number");
         int k = JUtil.getIntegerInput();
 

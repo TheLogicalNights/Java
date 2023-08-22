@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         SelectionSort selectionSort = new SelectionSort();
-        int[] numberArray = JUtil.getIntegerArray();
+        int[] numberArray = JUtil.getInteger1DArray();
 
         int[] sortedArray = selectionSort.arraySort(numberArray, numberArray.length);
 

@@ -5,7 +5,7 @@ import util.JUtil;
 public class Main {
     public static void main(String[] args) {
         KthSmallestLargestElement kthSmallestLargestElement = new KthSmallestLargestElement();
-        int[] numberArray = JUtil.getIntegerArray();
+        int[] numberArray = JUtil.getInteger1DArray();
         System.out.println("Enter the value of k:");
         int k = JUtil.getIntegerInput();
 
