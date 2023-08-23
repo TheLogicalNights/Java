@@ -36,6 +36,8 @@ public class MaximumOfAllSubArrays {
                     }
                 }
                 result.add(max);
+            } else {
+                break;
             }
         }
 
